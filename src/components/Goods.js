@@ -1,7 +1,7 @@
 function Goods() {
     return (
         <div>
-            Goods
+            GOODS
         </div>
     );
 }
