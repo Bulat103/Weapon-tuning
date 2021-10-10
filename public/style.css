@@ -1,6 +1,7 @@
-#root {
-  padding-top: 30px;
-  
+#root{
+  max-width: 2000px;
+  margin: 0 auto;
+ 
 }
 .container {
   max-width: 1200px;

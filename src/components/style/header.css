@@ -1,10 +1,20 @@
-.abbb{
-    width: 90%;
-    border: solid 5px greenyellow;
+#slide{
+    width: 2000px;
+    height: 300px;
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+}
+.slide-single{
+    width: 2000px;
+    height: 300px;
+    position: absolute;
+    transition: 3s all ease ;
+    left: 0;
+    top: 0;
 }
 
-.nav-container{
+.nav-container nav{
     width: 90%;
-    margin: 0 auto;
-    height: 300px;
+    margin: 30px auto 250px;
 }
