@@ -1,15 +1,9 @@
 #root{
   max-width: 2000px;
-  margin: 0 auto;
- 
+  margin: 0 auto; 
+  background: url(./AboutImg/specna-arms-wYYo7xfe-1s-unsplash.jpg);
 }
-.container {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 20px;
-  box-sizing: border-box;
-  background: #f1f1f1;
-}
+
 
 .goods-field::after {
   content: "";
