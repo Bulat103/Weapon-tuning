@@ -5,6 +5,7 @@ import Home from './components/Home'
 import Services from './components/Services';
 import About from './components/About';
 import Footer from './components/Footer';
+import GoodsInformation from "./containers/GoodsInformation"
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
         <Header></Header>
         <Switch>
           <Route path="/goods" component={Goods}></Route>
+          <Route path="/:userName" component={GoodsInformation}></Route>
         </Switch>
         <Services></Services>
         <About></About>
